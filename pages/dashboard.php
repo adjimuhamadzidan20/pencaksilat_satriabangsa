@@ -52,7 +52,7 @@
     <div class="row">
       <div class="col-sm-6">
         <!-- small box -->
-        <div class="small-box bg-secondary">
+        <div class="small-box bg-info">
           <div class="inner">
             <h4 class="font-weight-bold">Total <?php echo mysqli_num_rows($anggota); ?></h4>
             <p>Anggota</p>
@@ -66,7 +66,7 @@
       <!-- ./col -->
       <div class="col-sm-6">
         <!-- small box -->
-        <div class="small-box bg-secondary">
+        <div class="small-box bg-info">
           <div class="inner">
             <h4 class="font-weight-bold">Total <?php echo mysqli_num_rows($cabang); ?></h4>
             <p>Cabang</p>
@@ -82,7 +82,7 @@
       <!-- ./col -->
       <div class="col-sm-4">
         <!-- small box -->
-        <div class="small-box bg-secondary">
+        <div class="small-box bg-info">
           <div class="inner">
             <h4 class="font-weight-bold">Total <?php echo mysqli_num_rows($pelatih); ?></h4>
             <p>Pelatih</p>
@@ -96,7 +96,7 @@
       <!-- ./col -->
       <div class="col-sm-4">
         <!-- small box -->
-        <div class="small-box bg-secondary">
+        <div class="small-box bg-info">
           <div class="inner">
             <h4 class="font-weight-bold">Total <?php echo mysqli_num_rows($keuangan); ?></h4>
             <p>Keuangan</p>
@@ -110,7 +110,7 @@
       <!-- ./col -->
       <div class="col-sm-4">
         <!-- small box -->
-        <div class="small-box bg-secondary">
+        <div class="small-box bg-info">
           <div class="inner">
             <h4 class="font-weight-bold">Total <?php echo mysqli_num_rows($jadwal); ?></h4>
             <p>Jadwal Pelatihan</p>
