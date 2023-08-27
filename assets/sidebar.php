@@ -1,7 +1,7 @@
 <!-- Brand Logo -->
 <a href="index.php" class="brand-link">
   <img src="logo/pencaksilat.png" alt="Satria Bangsa" class="brand-image img-circle elevation-3" style="opacity: .8">
-  <span class="brand-text font-weight-light">SATRIA BANGSA</span>
+  <span class="brand-text text-white ml-1">SATRIA BANGSA</span>
 </a>
 
 <!-- Sidebar -->
@@ -12,13 +12,13 @@
     <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
       <!-- Add icons to the links using the .nav-icon class with font-awesome or any other icon font library -->
       <li class="nav-item">
-        <a href="index.php?halaman=dashboard" class="nav-link">
+        <a href="index.php?halaman=dashboard" class="nav-link text-white">
           <i class="nav-icon fas fa-th"></i>
           <p>Dashboard</p>
         </a>
       </li>
       <li class="nav-item menu-open">
-        <a href="#" class="nav-link active bg-secondary">
+        <a href="#" class="nav-link text-white">
           <i class="nav-icon fas fa-list"></i>
           <p>
             Menu
@@ -27,31 +27,31 @@
         </a>
         <ul class="nav nav-treeview">
           <li class="nav-item">
-            <a href="index.php?halaman=dt_anggota" class="nav-link">
+            <a href="index.php?halaman=dt_anggota" class="nav-link text-white">
               <i class="fas fa-users nav-icon"></i>
               <p>Anggota</p>
             </a>
           </li>
           <li class="nav-item">
-            <a href="index.php?halaman=dt_cabang" class="nav-link">
+            <a href="index.php?halaman=dt_cabang" class="nav-link text-white">
               <i class="fas fa-building nav-icon"></i>
               <p>Cabang</p>
             </a>
           </li>
           <li class="nav-item">
-            <a href="index.php?halaman=dt_pelatih" class="nav-link">
+            <a href="index.php?halaman=dt_pelatih" class="nav-link text-white">
               <i class="fas fa-user nav-icon"></i>
               <p>Pelatih</p>
             </a>
           </li>
           <li class="nav-item">
-            <a href="index.php?halaman=dt_keuangan" class="nav-link">
+            <a href="index.php?halaman=dt_keuangan" class="nav-link text-white">
               <i class="fas fa-archive nav-icon"></i>
               <p>Keuangan</p>
             </a>
           </li>
           <li class="nav-item">
-            <a href="index.php?halaman=dt_jadwal_pelatihan" class="nav-link">
+            <a href="index.php?halaman=dt_jadwal_pelatihan" class="nav-link text-white">
               <i class="fas fa-calendar nav-icon"></i>
               <p>Jadwal Pelatihan</p>
             </a>
@@ -59,7 +59,7 @@
         </ul>
       </li>
       <li class="nav-item">
-        <a href="logout.php" onclick="return confirm('Anda yakin ingin keluar?');" class="nav-link" style="cursor: pointer;">
+        <a href="logout.php" onclick="return confirm('Anda yakin ingin keluar?');" class="nav-link text-white" style="cursor: pointer;">
           <i class="fas fa-power-off nav-icon"></i>
           <p>Log out</p>
         </a>
