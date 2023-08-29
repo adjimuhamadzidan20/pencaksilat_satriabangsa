@@ -71,11 +71,19 @@
   <!-- Theme style -->
   <link rel="stylesheet" href="assets/dist/css/adminlte.min.css">
 
+  <style type="text/css">
+    body {
+      background-image: url(img/background.jpg);
+      background-size: cover;
+      background-position: center;
+    }
+  </style>
+
 </head>
 <body class="hold-transition login-page">
 <div class="login-box">
   <div class="login-logo">
-    <h1 class="text-lg">PENCAK SILAT <b>SATRIA BANGSA</b></h1>
+    <h1 class="text-lg text-white">PENCAK SILAT <b>SATRIA BANGSA</b></h1>
   </div>
   <!-- /.login-logo -->
   <div class="card">
