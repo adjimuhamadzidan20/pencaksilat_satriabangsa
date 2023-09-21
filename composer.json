@@ -1,0 +1,6 @@
+{
+    "require": {
+        "fzaninotto/faker": "^1.9",
+        "mpdf/mpdf": "^8.2"
+    }
+}
